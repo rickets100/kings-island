@@ -1,5 +1,5 @@
 <?php
-	$name = "The Coasters of Kings Island";
+	$name = "The Best of Kings Island";
 	include('includes/data.php');
 ?>
 
@@ -14,6 +14,8 @@
 <body id="kings-island">
 
 	<div class="wrapper">
+		<div id="pre-banner">
+		</div><!-- banner -->
 
 		<div id="banner">
 		</div><!-- banner -->

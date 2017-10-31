@@ -182,7 +182,19 @@ a.button, input.button {
 	margin: 20px 0 40px;
 }
 
-
+#banner {
+	background-image: url('img/banner.png');
+	height:337px;
+	width: 100%;
+}
+.overlay {
+	font-size: 72px;
+	font-weight: bold;
+	text-shadow: 2px 2px black;
+	color: white;
+	padding-top: 84px;
+	background: rgba(30, 30, 30, .25);
+}
 #kings-island .wrapper {
 	width: 800px;
 	padding: 0;
