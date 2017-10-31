@@ -7,12 +7,12 @@
 			"title"	=> "Home"
 		),
 		array(
-			"slug"	=> "sights.php",
-			"title"	=> "Sights"
-		),
-		array(
 			"slug"	=> "rides.php",
 			"title"	=> "Rides"
+		),
+		array(
+			"slug"	=> "sights.php",
+			"title"	=> "Sights"
 		),
 		array(
 			"slug"	=> "contact.php",
@@ -25,25 +25,42 @@
 	$sights = array(
 
 		array(
-      "title" => "Festhaus",
-      "sublocale" => "Name of the Kings Island sublocale",
-      "bio" => "This part of the park was known as 'Oktoberfest' when I was a kid.",
-			"image"	=> "rc-festhaus-300x180.png"
+			"name" => "Entrance",
+			"location" => "Main Entrance",
+			"blurb" => "The sight of those words filled me with such joy when I was little. My parents always took us on 'GE Day' and it was the highlight of my year, every year.",
+			"image"	=> "sign-at-entrance-300x180"
+		),
+
+		array(
+      "name" => "Festhaus",
+      "location" => "Oktoberfest",
+      "blurb" => "The inside of this place is kind of sad, now (it hosts walk-up counters for purchasing fast food from couple of chain restaurants). The photo was so cool, though, that I had to include it.",
+			"image"	=> "festhaus-300x180"
 			 ),
 
 		array(
-      "title" => "The Fountains",
-      "sublocale" => "International Street",
-      "bio" => "This part of the park hasn't changed much since I was a kid (though, happily, one of the modern additions is a Graeter's).",
-			"image"	=> "fountains-day-300x180.png"
+      "name" => "The Fountains",
+      "location" => "International Street",
+      "blurb" => "This part of the park hasn't changed much since I was a kid (though, happily, one of the modern additions is a Graeter's).",
+			"image"	=> "fountains-day-300x180"
 			 ),
 
-		array(
-				"title" => "Entrance",
-				"sublocale" => "Main Entrance",
-				"bio" => "Description of the photo, including maybe an anecdote about how it has changed since I was a kid.",
-				"image"	=> "sign-at-entrance-300x180.png"
-			 ),
+		 array(
+				"name" => "The Monster",
+				"location" => "Coney Mall",
+				"blurb" => "This, the Scrambler and the Dodgem bumper cars were three non-coaster rides that I enjoyed as a kid. I tried this one out again when I visited the park last summer, and it had lost none of its luster.",
+			 "image"	=> "festhaus-300x180"
+		 ),
+
+		 array(
+				 "name" => "K.I. & Miami Valley Railroad",
+				 "location" => "Rivertown",
+				 "blurb" => "Every visit to Kings Island had to include some downtime on the very chill railroad. Back then, it had animatronic attackers hidden in the brush. Nowadays, it provides transportation to and from the water park.",
+				 "image"	=> "sign-at-entrance-300x180"
+			 )
+
+
+
    );
 
 
@@ -56,7 +73,7 @@
       "max-speed"	=> "40 mph",
       "duration"	=> "1 minute 4 seconds",
       "location"	=> "Coney Mall",
-      "blurb"	=> "Blurb describing the photo. Describe the rollercoaster, what it's reputation is, what I thought of it, any special anecdotes (for instance, how my friend Joe reacted to it). The aim is to have a blurb that is 3-4 lines in length. Something like that.",
+      "blurb"	=> "This is pretty mellow as far as the Kings Island coasters go, but it's a blast (literally = gigantic flames shoot out at you during part of it).",
 			"image"	=> "rc-invertigo-300x180"
 		),
 
@@ -66,7 +83,7 @@
       "max-speed"	=> "68 mph",
       "duration"	=> "2 minutes 40 seconds",
 			"location"	=> "Action Zone",
-      "blurb"	=> "Blurb describing the photo. Describe the rollercoaster, what it's reputation is, what I thought of it, any special anecdotes (for instance, how my friend Joe reacted to it). The aim is to have a blurb that is 3-4 lines in length. Something like that.",
+      "blurb"	=> "This coaster is so intense, they require you to empty all loose items into nearby lockers before boarding. Even fanny packs.",
 			"image"	=> "rc-banshee"
 		),
 
@@ -76,7 +93,7 @@
       "max-speed"	=> "51 mph",
       "duration"	=> "1 minute 52 seconds",
 			"location"	=> "Action Zone",
-      "blurb"	=> "Blurb describing the photo. Describe the rollercoaster, what it's reputation is, what I thought of it, any special anecdotes (for instance, how my friend Joe reacted to it). The aim is to have a blurb that is 3-4 lines in length. Something like that.",
+      "blurb"	=> "So. Much Fun. This is a hanging/swinging coaster, and it looks like you are going to crash into the uprights at every turn. Best of all, because it's at the far corner of the park, the line is often ridiculously short.",
 			"image"	=> "rc-bat"
 		),
 
@@ -86,17 +103,17 @@
       "max-speed"	=> "64.78 mph",
       "duration"	=> "4 minutes 10 seconds",
 			"location"	=> "Rivertown",
-      "blurb"	=> "Blurb describing the photo. Describe the rollercoaster, what it's reputation is, what I thought of it, any special anecdotes (for instance, how my friend Joe reacted to it). The aim is to have a blurb that is 3-4 lines in length. Something like that.",
+      "blurb"	=> "Ah, the Beast. Enormous. Roaringly loud. Terrifying. FUN! No one who has been on it can forget the teeth-rattling experience of blasting into the wooden spirals. Always a long line. Always worth it.",
       "image"	=> "rc-beast"
     ),
 
 		"delirium" => array(
 
 			"name"	=> "Delirium",
-      "max-speed"	=> "",
-      "duration"	=> "",
-			"location"	=> "Coney Mall",
-      "blurb"	=> "Blurb describing the photo. Describe the rollercoaster, what it's reputation is, what I thought of it, any special anecdotes (for instance, how my friend Joe reacted to it). The aim is to have a blurb that is 3-4 lines in length. Something like that.",
+      "max-speed"	=> "n/a",
+      "duration"	=> "2 minutes 30 seconds",
+			"location"	=> "Action Zone",
+      "blurb"	=> "Yes, it looks like a giant immersion blender and, no, it isn't technically a coaster...but it's so much fun! I noticed with dismay, though, that a ride just like this one broke free and killed someone at a the Ohio State Fair last year.",
 			"image"	=> "rc-delirium"
 		),
 
@@ -106,7 +123,7 @@
       "max-speed"	=> "80 mph",
       "duration"	=> "3 minutes",
 			"location"	=> "Rivertown",
-      "blurb"	=> "Blurb describing the photo. Describe the rollercoaster, what it's reputation is, what I thought of it, any special anecdotes (for instance, how my friend Joe reacted to it). The aim is to have a blurb that is 3-4 lines in length. Something like that.",
+      "blurb"	=> "This coaster is insane. The initial drop looks concave from its crest, and it hits a peak speed of 80 mph. The splash of water at the end is a nice touch. I think I rode this one more than any of the others when I visited the park last summer.",
 			"image"	=> "rc-diamondback-300x180"
 		),
 
@@ -116,7 +133,7 @@
       "max-speed"	=> "50 mph",
       "duration"	=> "2 minutes 10 seconds",
 			"location"	=> "Coney Mall",
-      "blurb"	=> "Blurb describing the photo. Describe the rollercoaster, what it's reputation is, what I thought of it, any special anecdotes (for instance, how my friend Joe reacted to it). The aim is to have a blurb that is 3-4 lines in length. Something like that.",
+      "blurb"	=> "When I talked my friend Joe into trying this one, he spent the entire ride screaming, 'WHAT?!?!?!' with a mixture of horror, anger and dismay. Good times.",
 			"image"	=> "rc-firehawk"
 		),
 
@@ -126,7 +143,7 @@
       "max-speed"	=> "54 mph",
       "duration"	=> "2 minutes 24 seconds",
 			"location"	=> "Coney Mall",
-      "blurb"	=> "Blurb describing the photo. Describe the rollercoaster, what it's reputation is, what I thought of it, any special anecdotes (for instance, how my friend Joe reacted to it). The aim is to have a blurb that is 3-4 lines in length. Something like that.",
+      "blurb"	=> "This is King's Island's only indoor rollercoaster. It has a different feel from the others - a lot of the thrill comes from the darkness, and not being able to see towards what you are hurtling. I also expect that it's a great way to stay dry if a rainshower breaks out while you are visiting the park.",
 			"image"	=> "rc-ffear-300x180"
 		),
 
@@ -136,7 +153,7 @@
       "max-speed"	=> "50 mph",
       "duration"	=> "1 minute 30 seconds",
 			"location"	=> "Coney Mall",
-      "blurb"	=> "Blurb describing the photo. Describe the rollercoaster, what it's reputation is, what I thought of it, any special anecdotes (for instance, how my friend Joe reacted to it). The aim is to have a blurb that is 3-4 lines in length. Something like that.",
+      "blurb"	=> "Though it isn't as long as some of the other rides, this was probably my favorite. The shorter-than-average lines probably have something to do with it, yes, but it packs a big punch in a modest amount of time.",
 			"image"	=> "rc-invertigo-300x180"
 		),
 
@@ -146,7 +163,7 @@
       "max-speed"	=> "53 mph",
       "duration"	=> "2 minutes (approx.)",
 			"location"	=> "Rivertown",
-      "blurb"	=> "Blurb describing the photo. Describe the rollercoaster, what it's reputation is, what I thought of it, any special anecdotes (for instance, how my friend Joe reacted to it). The aim is to have a blurb that is 3-4 lines in length. Something like that.",
+      "blurb"	=> "This is the newest coaster at Kings Island. It was still under construction when I went last year. Totally plausible excuse to go back next summer.",
 			"image"	=> "rc-invertigo-300x180"
 		),
 
@@ -156,7 +173,7 @@
       "max-speed"	=> "53 mph",
       "duration"	=> "2 minutes",
 			"location"	=> "Coney Mall",
-      "blurb"	=> "Blurb describing the photo. Describe the rollercoaster, what it's reputation is, what I thought of it, any special anecdotes (for instance, how my friend Joe reacted to it). The aim is to have a blurb that is 3-4 lines in length. Something like that.",
+      "blurb"	=> "This was the ultimate coaster when I was a little kid. The unique 2-track design still appeals: you never know if the red cars or blue cars will finish first. Loads of fun.",
 			"image"	=> "rc-racer-300x180"
 		),
 
@@ -166,7 +183,7 @@
 			"max-speed"	=> "55 mph",
 			"duration"	=> "2 minutes 30 seconds",
 			"location"	=> "Coney Mall",
-			"blurb"	=> "Blurb describing the photo. Describe the rollercoaster, what it's reputation is, what I thought of it, any special anecdotes (for instance, how my friend Joe reacted to it). The aim is to have a blurb that is 3-4 lines in length. Something like that.",
+			"blurb"	=> "This is probably my fourth-favorite coaster at Kings Island (behind Invertigo, Banshee and Diamondback). It's definitely right up there for sheer number of inversions (six to Banshee's seven). They have cubbies at the ride platform to hold your loose items while you get tossed about.",
 			"image"	=> "rc-invertigo-300x180"
 		)
   ); // rides

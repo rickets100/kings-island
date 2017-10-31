@@ -2,7 +2,7 @@
 
 // REQUIRED
 // Set your default time zone (listed here: http://php.net/manual/en/timezones.php)
-date_default_timezone_set('America/Los_Angeles');
+date_default_timezone_set('America/Kentucky/Louisville');
 // Include the store hours class
 require __DIR__ . '/StoreHours.class.php';
 

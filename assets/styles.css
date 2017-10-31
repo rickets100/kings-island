@@ -44,6 +44,11 @@ h2,h3,h4 {
 	font-size: 30px;
 }
 
+
+h4.error {
+	color: #faa722;
+}
+
 h5,h6 {
 	font-size: 20px;
 }
@@ -236,7 +241,6 @@ background: linear-gradient(to bottom, rgba(30,30,30,.5), rgba(30,30,30,0)); /*S
 }
 
 #kings-island #nav ul li a:hover {
-	/*background: #93BDBB;*/
 	background: #A7BDB9;
 	outline: solid 2px #ADBDBB;
 	-moz-transform: scale(1.1) .35s;;
@@ -313,12 +317,13 @@ background: linear-gradient(to bottom, rgba(30,30,30,.5), rgba(30,30,30,0)); /*S
 }
 
 #kings-island .open {
-	color: #489945;
+	color: #5A8C64;
 }
 
 #kings-island .details {
 	color: black;
 }
+
 #coasters ul {
 	list-style: none;
 	margin: 0;
@@ -333,6 +338,25 @@ background: linear-gradient(to bottom, rgba(30,30,30,.5), rgba(30,30,30,0)); /*S
 }
 
 #coasters li {
+	text-decoration: none;
+	font-weight: bold;
+	color: #AD9236;
+}
+
+#sights ul {
+	list-style: none;
+	margin: 0;
+	padding: 20px 0;
+	text-align: center;
+	font-size: 18px;
+}
+
+#sights ul li a {
+	text-decoration: none;
+	font-weight: bold;
+}
+
+#sights li {
 	text-decoration: none;
 	font-weight: bold;
 	color: #AD9236;
