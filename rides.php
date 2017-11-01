@@ -30,10 +30,9 @@
 		<?php foreach ($rides as $ride => $item) { ?>
 			<br>
 				<div class="pic-box hover-fun">
-			  <img src="./assets/img/<?php echo $item["image"]; ?>.png">
+			  <a href="ride.php?item=<?php echo $ride; ?>"><img src="./assets/img/<?php echo $item["image"]; ?>.png"></a>
 				<div class="lower">
 					<?php echo $item["name"];?>
-					<!-- <h5>{{ this.name }}</h5> -->
 				</div>
 			</div>
 		<?php } ?>
@@ -41,8 +40,6 @@
     <div class="row col s3 center-align">
       <div class="pic_box hover-fun">
 				Image
-        <!-- <a href="/trucks/{{this.id}}">
-          <img src="{{ this.truck_pic }}" alt="{{ this.name }}"></a> -->
       </div>
     </div>
     Stuff
