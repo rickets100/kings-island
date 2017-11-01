@@ -416,3 +416,13 @@ background: linear-gradient(to bottom, rgba(30,30,30,.5), rgba(30,30,30,0)); /*S
   text-indent:5px;
   background:rgba(91,105,195,0.8);
 }
+
+.col.pic_box {
+  margin-bottom: 20px;
+}
+
+.pic_box{
+  width:300px;
+  max-height:300px;
+  position:relative;
+}
