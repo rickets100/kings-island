@@ -23,5 +23,32 @@
 </div><!-- coasters -->
 
 <hr>
+<div class="row"></div>
+<div class="row"></div>
+<div class="container">
+  <div class="row">
+		For each will go here<br>
+		<?php foreach ($rides as $ride => $item) { ?>
+			<!-- <?php echo $item["image"] ?><br> -->
+			<br>
+				<div class="pic-box hover-fun">
+			  <img src="./assets/img/<?php echo $item["image"]; ?>.png">
+			</div>
+		<?php } ?>
 
+    <div class="row col s3 center-align">
+      <div class="pic_box hover-fun">
+				Image
+        <!-- <a href="/trucks/{{this.id}}">
+          <img src="{{ this.truck_pic }}" alt="{{ this.name }}"></a> -->
+          <div class="lower">
+						Name
+            <!-- <h5>{{ this.name }}</h5> -->
+          </div>
+      </div>
+    </div>
+    Stuff
+    </div>
+  <br>
+</div>
 <?php include('includes/footer.php'); ?>

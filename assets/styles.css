@@ -397,3 +397,22 @@ background: linear-gradient(to bottom, rgba(30,30,30,.5), rgba(30,30,30,0)); /*S
 	display: inline;
 	cursor: pointer;
 }
+
+.hover-fun {
+  transition: opacity .5s, transform .5s;
+}
+
+.hover-fun:hover {
+  opacity: .5;
+  transform: scale(1.01);
+}
+
+.lower {
+  position:absolute;
+  bottom:0;
+  width: 100%;
+  color:#fff;
+  padding:10px 0;
+  text-indent:5px;
+  background:rgba(91,105,195,0.8);
+}
