@@ -11,16 +11,22 @@
 	<hr>
 </div><!-- purpose -->
 
-<div id="coasters">
-	<ul>
-		<!--
-			syntax: foreach ($array as $key => $value)
-		-->
-		<?php foreach ($rides as $ride => $item) { ?>
-			<li><a href="ride.php?item=<?php echo $ride; ?>"><?php echo $item["name"]; ?></a></li>
-		<?php } ?>
-	</ul>
-</div><!-- coasters -->
+<table style="width:100%">
+  <tr>
+    <th>
+			<div id="coasters">
+				<ul>
+					<?php foreach ($rides as $ride => $item) { ?>
+						<li><a href="ride.php?item=<?php echo $ride; ?>"><?php echo $item["name"]; ?></a></li>
+					<?php } ?>
+				</ul>
+			</div>
+		</th>
+    <th>
+			<img src="./assets/img/rc-banshee-300x180.png">
+		</th>
+  </tr>
+</table>
 
 <hr>
 <div class="row"></div>

@@ -13,7 +13,7 @@
 
 	<body id="kings-island">
 
-		<div class="wrapper">
+		<div class="main-wrapper">
 
 			<div id="banner">
 				<div class="overlay">KINGS ISLAND</div>

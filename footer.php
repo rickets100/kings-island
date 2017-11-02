@@ -1,15 +1,15 @@
 
         <div id="footer" class="cf">
-          <div class="column three">
+          <div class="footer-column three">
             <strong>Phone</strong>
             555.555.5555
           </div>
-          <div class="column three">
+          <div class="footer-column three">
             <strong>Location</strong>
             1101 A Street<br>
             Eau Claire, WI 55555
           </div>
-          <div class="column three last">
+          <div class="footer-column three last">
             <strong>Hours</strong>
             <!-- <em>Tuesday - Thursday</em><br>
             1:00 - 9:00pm<br><br>
@@ -24,6 +24,6 @@
         <small>&copy:<?php echo date('Y'); ?> <?php echo $companyName; ?></small>
       </div> <!-- content -->
 
-    </div> <!-- wrapper -->
+    </div> <!-- main-wrapper -->
   </body>
 </html>
