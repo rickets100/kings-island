@@ -17,13 +17,19 @@
 			<div id="coasters">
 				<ul>
 					<?php foreach ($rides as $ride => $item) { ?>
-						<li><a href="ride.php?item=<?php echo $ride; ?>"><?php echo $item["name"]; ?></a></li>
+						<li>
+							<a href="ride.php?item=<?php echo $ride; ?>" onmouseover="preview.src='./assets/img/<?php echo $item["image"]; ?>.png'"><?php echo $item["name"]; ?></a>
+						</li>
 					<?php } ?>
 				</ul>
+				<a href="ride.php?item=banshee"
+onmouseover="preview.src='./assets/img/rc-banshee-300x180.png'">testing</a>
 			</div>
 		</th>
     <th>
-			<img src="./assets/img/rc-banshee-300x180.png">
+			<div >
+				<img name="preview" src="./assets/img/rc-backlot-300x180.png"/>
+			</div>
 		</th>
   </tr>
 </table>

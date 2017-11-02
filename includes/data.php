@@ -80,7 +80,7 @@
       "max-speed"	=> "40 mph",
       "duration"	=> "1 minute 4 seconds",
       "location"	=> "Coney Mall",
-      "blurb"	=> "This is pretty mellow as far as the Kings Island coasters go, but it's a blast (literally = gigantic flames shoot out at you during part of it).",
+      "blurb"	=> "This is pretty mellow as far as the Kings Island coasters go, but it's a blast (literally - gigantic flames shoot out at you during part of it).",
 			"image"	=> "rc-backlot-300x180"
 		),
 
