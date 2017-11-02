@@ -13,7 +13,7 @@
 
 <table style="width:100%">
   <tr>
-    <th>
+    <td class="one-third">
 			<div id="coasters">
 				<ul>
 					<?php foreach ($rides as $ride => $item) { ?>
@@ -22,20 +22,20 @@
 						</li>
 					<?php } ?>
 				</ul>
-				<a href="ride.php?item=banshee"
-onmouseover="preview.src='./assets/img/rc-banshee-300x180.png'">testing</a>
 			</div>
-		</th>
-    <th>
-			<div >
+		</td>
+    <td class="two-thirds">
+			<div class="hover-fun">
 				<img name="preview" src="./assets/img/rc-backlot-300x180.png"/>
-			</div>
-		</th>
+				<div class="lower">
+					<?php echo $item["name"];?> &#8680;
+				</div>
+			</div><!-- hover-fun -->
+		</td>
   </tr>
 </table>
 
 <hr>
-<div class="row"></div>
 <div class="row"></div>
 <div class="container">
   <div class="row">
@@ -48,16 +48,7 @@ onmouseover="preview.src='./assets/img/rc-banshee-300x180.png'">testing</a>
 				</div>
 			</div>
 		<?php } ?>
-
-    <div class="row col s3 center-align">
-      <div class="pic_box hover-fun">
-				Image
-      </div>
-    </div>
-    Stuff
-    </div>
+  </div>
   <br>
 </div>
 <?php include('includes/footer.php'); ?>
-
-<!--  2 columns, lefthand list of rides; righthand, -->

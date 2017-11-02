@@ -400,6 +400,7 @@ background: linear-gradient(to bottom, rgba(30,30,30,.5), rgba(30,30,30,0)); /*S
 
 .hover-fun {
   transition: opacity .5s, transform .5s;
+	text-align: center;
 }
 
 .hover-fun:hover {
@@ -414,7 +415,7 @@ background: linear-gradient(to bottom, rgba(30,30,30,.5), rgba(30,30,30,0)); /*S
   color:#fff;
   padding:10px 0;
   text-indent:5px;
-  background:rgba(91,105,195,0.8);
+  background:rgba(151,145,126,0.8);
 }
 
 .col.pic_box {
@@ -427,10 +428,24 @@ background: linear-gradient(to bottom, rgba(30,30,30,.5), rgba(30,30,30,0)); /*S
   position:relative;
 }
 
+
+tr, td {
+	border: 1px solid green;
+}
+
 table, th, td {
     border-collapse: collapse;
 }
+
 th {
 	width: 50%;
 	text-align: center;
+}
+
+.one-third {
+	width: 33%;
+}
+
+.two-thirds {
+	width: 66%;
 }
