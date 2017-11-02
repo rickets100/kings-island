@@ -29,7 +29,7 @@
   <div class="row">
 		<?php foreach ($rides as $ride => $item) { ?>
 			<br>
-				<div class="pic-box hover-fun">
+			<div class="pic-box hover-fun">
 			  <a href="ride.php?item=<?php echo $ride; ?>"><img src="./assets/img/<?php echo $item["image"]; ?>.png"></a>
 				<div class="lower">
 					<?php echo $item["name"];?>
@@ -47,3 +47,5 @@
   <br>
 </div>
 <?php include('includes/footer.php'); ?>
+
+<!--  2 columns, lefthand list of rides; righthand, -->
