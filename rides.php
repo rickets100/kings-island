@@ -26,10 +26,7 @@
 		</td>
     <td class="two-thirds">
 			<div class="hover-fun">
-				<a id="linkorama" href=""><img name="preview" src="./assets/img/rc-backlot-300x180.png"/></a>
-				<!-- <div class="lower">
-					<?php echo $item["name"];?> &#8680;
-				</div> -->
+				<a id="linkorama" href=""><img name="preview" src="./assets/img/rc-backlot-300x180.png"/><div class="lower"><?php echo $item["name"];?> &#8680;</div></a>
 			</div><!-- hover-fun -->
 		</td>
   </tr>
