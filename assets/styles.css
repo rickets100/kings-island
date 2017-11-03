@@ -457,3 +457,12 @@ th {
   background:rgba(151,145,126,0.8);
 	line-height:20px;
 }
+
+.boring {
+	color: black;
+	border: none;
+}
+.testing {
+	color: red;
+	border: 1pt solid blue;
+}
