@@ -26,29 +26,14 @@
 		</td>
     <td class="two-thirds">
 			<div class="hover-fun">
-				<img name="preview" src="./assets/img/rc-backlot-300x180.png"/>
-				<div class="lower">
+				<a id="linkorama" href=""><img name="preview" src="./assets/img/rc-backlot-300x180.png"/></a>
+				<!-- <div class="lower">
 					<?php echo $item["name"];?> &#8680;
-				</div>
+				</div> -->
 			</div><!-- hover-fun -->
 		</td>
   </tr>
 </table>
 
 <hr>
-<div class="row"></div>
-<div class="container">
-  <div class="row">
-		<?php foreach ($rides as $ride => $item) { ?>
-			<br>
-			<div class="pic-box hover-fun">
-			  <a href="ride.php?item=<?php echo $ride; ?>"><img src="./assets/img/<?php echo $item["image"]; ?>.png"></a>
-				<div class="lower">
-					<?php echo $item["name"];?>
-				</div>
-			</div>
-		<?php } ?>
-  </div>
-  <br>
-</div>
 <?php include('includes/footer.php'); ?>
