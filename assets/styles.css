@@ -459,9 +459,12 @@ th {
 }
 
 .boring {
-	color: black;
+	color: green;
+	font-size: 16pt;
+	font-weight: bold;
 	border: none;
 }
+
 .testing {
 	color: red;
 	border: 1pt solid blue;

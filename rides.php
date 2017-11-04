@@ -10,7 +10,18 @@
 	<p><em>Click any coaster to learn more.</em></p>
 	<hr>
 </div><!-- purpose -->
+<script>
+	function onMouseOver(newImage, newText){
+		let hoverFun = document.getElementsByClassName("hover-fun")[0];
+		console.log("hoverFun",hoverFun)
+		let preview = hoverFun.getElementsByClassName('preview')[0];
+		let heyText = hoverFun.getElementsByClassName('lower')[0];
 
+		preview.src = newImage;
+		heyText.innerHTML = newText;
+
+	}
+</script>
 <table style="width:100%">
   <tr>
     <td class="one-third">
@@ -18,8 +29,11 @@
 				<ul>
 					<?php foreach ($rides as $ride => $item) { ?>
 						<li>
-							<a href="ride.php?item=<?php echo $ride; ?>" onmouseover="preview.src='./assets/img/<?php echo $item["image"]; ?>.png'"><?php echo $item["name"]; ?></a>
-							<div name="hey" class="boring">hey</div>
+							<a href="ride.php?item=<?php echo $ride; ?>" onmouseover="
+onMouseOver('./assets/img/<?= $item["image"]; ?>.png', '<?= $item["name"]?>');
+
+								"><?php echo $item["name"]; ?></a>
+
 						</li>
 
 					<?php } ?>
@@ -28,13 +42,17 @@
 		</td>
     <td class="two-thirds">
 			<div class="hover-fun">
-				<a id="linkorama" href=""><img name="preview" src="./assets/img/rc-backlot-300x180.png"/><div name="preview-lab el" class="lower"><?php echo $item["name"];?> &#8680;</div></a>
+				<a id="linkorama" href=""><img name="preview" class="preview" src="./assets/img/rc-backlot-300x180.png"/><div name="preview-label" class="lower"><?php echo $item["name"];?> &#8680;</div></a>
 			</div><!-- hover-fun -->
 		</td>
   </tr>
 </table>
-<div id='hey'>HEY</div>
-
+<div name="hey" class="boring">HEY</div>
 
 <hr>
 <?php include('includes/footer.php'); ?>
+<!--
+
+
+
+-->
