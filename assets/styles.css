@@ -452,20 +452,10 @@ th {
   bottom:0;
   width: 100%;
   color:#fff;
+	font-weight: bold;
+	font-size: 18px;
   padding:10px 0;
   text-indent:5px;
-  background:rgba(151,145,126,0.8);
+  background:rgba(30,30,30,.5);
 	line-height:20px;
-}
-
-.boring {
-	color: green;
-	font-size: 16pt;
-	font-weight: bold;
-	border: none;
-}
-
-.testing {
-	color: red;
-	border: 1pt solid blue;
 }
