@@ -11,14 +11,15 @@
 	<hr>
 </div><!-- purpose -->
 <script>
-	function onMouseOver(newImage, newText){
+	function onMouseOver(newImage, newText, newLink){
 		let hoverFun = document.getElementsByClassName("hover-fun")[0];
 		let preview = hoverFun.getElementsByClassName("preview")[0];
 		let prevLabel = hoverFun.getElementsByClassName("lower")[0];
+		let link = document.getElementById("linkorama");
 
 		preview.src = newImage;
-		// heyText.innerHTML = newText;
 		prevLabel.innerHTML = newText;
+		link.href="ride.php?item=" + newLink;
 	}
 </script>
 <table style="width:100%">
@@ -29,7 +30,7 @@
 					<?php foreach ($rides as $ride => $item) { ?>
 						<li>
 							<a href="ride.php?item=<?php echo $ride; ?>" onmouseover="
-onMouseOver('./assets/img/<?= $item["image"]; ?>.png', '<?= $item["name"]?> &#8680;');"><?php echo $item["name"]; ?></a>
+onMouseOver('./assets/img/<?= $item["image"]; ?>.png', '<?= $item["name"]?> &#8680;', '<?php echo $ride ?>');"><?php echo $item["name"]; ?></a>
 						</li>
 
 					<?php } ?>

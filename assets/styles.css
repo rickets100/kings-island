@@ -365,6 +365,9 @@ background: linear-gradient(to bottom, rgba(30,30,30,.5), rgba(30,30,30,0)); /*S
 #contact {
 	width: 320px;
 	margin: 0 auto;
+	text-align: center;
+	font-size: 18px;
+	line-height: 22px;
 }
 
 #contact-form label {
@@ -420,7 +423,6 @@ background: linear-gradient(to bottom, rgba(30,30,30,.5), rgba(30,30,30,0)); /*S
 
 
 tr, td {
-	border: 1px solid green;
 }
 
 table, th, td {
