@@ -27,7 +27,7 @@
 		array(
 			"name" => "Entrance",
 			"location" => "Main Entrance",
-			"blurb" => "The sight of those words filled me with such joy when I was little. My parents always took us on 'GE Day' and it was the highlight of my year, every year.",
+			"blurb" => "The sight of those words filled me with such joy when I was little. My parents always took us on \'GE Day\' and it was the highlight of my year, every year.",
 			"image"	=> "sign-at-entrance-300x180"
 		),
 
@@ -48,7 +48,7 @@
 		array(
       "name" => "The Fountains",
       "location" => "International Street",
-      "blurb" => "This part of the park hasn't changed much since I was a kid (though, happily, one of the modern additions to this area is a <em>Graeter's</em>).",
+      "blurb" => "This part of the park hasn\'t changed much since I was a kid (though, happily, one of the modern additions to this area is a <em>Graeter\'s</em>).",
 			"image"	=> "fountains-day-300x180"
 			 ),
 
@@ -87,7 +87,7 @@
       "max-speed"	=> "40 mph",
       "duration"	=> "1 minute 4 seconds",
       "location"	=> "Coney Mall",
-      "blurb"	=> "This is pretty mellow as far as the Kings Island coasters go, but it's a blast (literally - gigantic flames shoot out at you during part of it).",
+      "blurb"	=> "This is pretty mellow as far as the Kings Island coasters go, but it\'s a blast (literally - gigantic flames shoot out at you during part of it).",
 			"image"	=> "rc-backlot-300x180"
 		),
 
@@ -107,7 +107,7 @@
       "max-speed"	=> "51 mph",
       "duration"	=> "1 minute 52 seconds",
 			"location"	=> "Action Zone",
-      "blurb"	=> "So. Much. Fun. This is a hanging/swinging coaster, and it looks like you are going to crash into the uprights at every turn. Best of all, because it's at the far corner of the park, the line is often ridiculously short.",
+      "blurb"	=> "So. Much. Fun. This is a hanging/swinging coaster, and it looks like you are going to crash into the uprights at every turn. Best of all, because it\'s at the far corner of the park, the line is often ridiculously short.",
 			"image"	=> "rc-bat-300x180"
 		),
 
@@ -127,7 +127,7 @@
       "max-speed"	=> "n/a",
       "duration"	=> "2 minutes 30 seconds",
 			"location"	=> "Action Zone",
-      "blurb"	=> "Yes, it looks like a giant immersion blender and, no, it isn't technically a coaster...but it's so much fun! I noticed with dismay, though, that a ride just like this one broke free and killed someone at a the Ohio State Fair last year.",
+      "blurb"	=> "Yes, it looks like a giant immersion blender and, no, it isn\'t technically a coaster...but it\'s so much fun! I noticed with dismay, though, that a ride just like this one broke free and killed someone at a the Ohio State Fair last year.",
 			"image"	=> "rc-delirium-300x180"
 		),
 
@@ -147,7 +147,7 @@
       "max-speed"	=> "50 mph",
       "duration"	=> "2 minutes 10 seconds",
 			"location"	=> "Coney Mall",
-      "blurb"	=> "When I talked my friend Joe into trying this one, he spent the entire ride screaming, 'WHAT?!?!?!' with a mixture of horror, anger and dismay. Good times.",
+      "blurb"	=> "When I talked my friend Joe into trying this one, he spent the entire ride screaming, \'WHAT?!?!?!\' with a mixture of horror, anger and dismay. Good times.",
 			"image"	=> "rc-firehawk-300x180"
 		),
 
@@ -157,7 +157,7 @@
       "max-speed"	=> "54 mph",
       "duration"	=> "2 minutes 24 seconds",
 			"location"	=> "Coney Mall",
-      "blurb"	=> "This is King's Island's only indoor rollercoaster. It has a different feel from the others - a lot of the thrill comes from the darkness, and not being able to see what you are hurtling towards. I also expect that it's a great way to stay dry if a rainshower breaks out while you are visiting the park.",
+      "blurb"	=> "This is Kings Islands\' only indoor rollercoaster. It has a different feel from the others - a lot of the thrill comes from the darkness, and not being able to see what you are hurtling towards. I also expect that it\'s a great way to stay dry if a rainshower breaks out while you are visiting the park.",
 			"image"	=> "rc-ffear-300x180"
 		),
 
@@ -167,7 +167,7 @@
       "max-speed"	=> "50 mph",
       "duration"	=> "1 minute 30 seconds",
 			"location"	=> "Action Zone",
-      "blurb"	=> "Though it isn't as long as some of the other rides, this was probably my favorite. The shorter-than-average lines have something to do with it, yes, but it packs a big punch in a modest amount of time. A good strategy for this one is to have a friend go into the gate next to you on the loading platform: This allows you to be face-to-face during the ride so you can watch one another screaming.",
+      "blurb"	=> "Though it isn\'t as long as some of the other rides, this was probably my favorite. The shorter-than-average lines have something to do with it, yes, but it packs a big punch in a modest amount of time. A good strategy for this one is to have a friend go into the gate next to you on the loading platform: This allows you to be face-to-face during the ride so you can watch one another screaming.",
 			"image"	=> "rc-invertigo-300x180"
 		),
 
@@ -197,7 +197,7 @@
 			"max-speed"	=> "55 mph",
 			"duration"	=> "2 minutes 30 seconds",
 			"location"	=> "Coney Mall",
-			"blurb"	=> "This is probably my fourth-favorite coaster at Kings Island (behind Invertigo, Banshee and Diamondback). It's definitely right up there for sheer number of inversions (six, to Banshee's seven). They have cubbies at the ride platform to hold your loose items while you get tossed about (I actually got thrown so hard I lost an earring).",
+			"blurb"	=> "This is probably my fourth favorite coaster at Kings Island, behind Invertigo, Banshee and Diamondback. It\'s definitely right up there for sheer number of inversions (six, to Banshee\'s seven). They have cubbies at the ride platform to hold your loose items while you get tossed about. I actually got thrown so hard I lost an earring.",
 			"image"	=> "rc-vortex-300x180"
 		)
   ); // rides
