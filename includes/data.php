@@ -63,7 +63,7 @@
 				 "name" => "K.I. & Miami Valley Railroad",
 				 "location" => "Rivertown",
 				 "blurb" => "Every visit to Kings Island had to include some downtime on the very chill railroad. Back then, it had animatronic attackers hidden in the brush. Nowadays, it provides transportation to and from the water park.",
-				 "image"	=> "sign-at-entrance-300x180"
+				 "image"	=> "railroad-300x180"
 			 )
 
 
