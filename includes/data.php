@@ -52,7 +52,14 @@
 			"image"	=> "fountains-day-300x180"
 			 ),
 
-		 array(
+			 array(
+ 	      "name" => "Games & Arcades",
+ 	      "location" => "Old Coney",
+ 	      "blurb" => "This part of the park hasn't changed much since I was a kid. Strolling along here, you will find funnel-cake stands, tchotchke-vendors, and old-timey games of skill where you can win a stuffed animal.",
+ 				"image"	=> "coney-300x180"
+ 				 ),
+
+	 		 array(
 				"name" => "The Monster",
 				"location" => "Coney Mall",
 				"blurb" => "This, the Scrambler and the Dodgem bumper cars were three non-coaster rides that I enjoyed as a kid. I tried this one out again when I visited the park last summer, and it had lost none of its luster.",
