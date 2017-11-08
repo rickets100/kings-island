@@ -50,8 +50,3 @@ onMouseOver('./assets/img/<?= $item["image"]; ?>.png', '<?= $item["name"]?>', '<
 </table>
 <hr>
 <?php include('includes/footer.php'); ?>
-<!--
-
-
-
--->

@@ -324,12 +324,17 @@ background: linear-gradient(to bottom, rgba(30,30,30,.5), rgba(30,30,30,0)); /*S
 	color: black;
 }
 
+#coasters {
+	vertical-align: top;
+}
+
 #coasters ul {
 	list-style: none;
 	margin: 0;
 	padding: 20px 0;
 	text-align: center;
 	font-size: 18px;
+	vertical-align: top;
 }
 
 #coasters ul li a {
@@ -427,6 +432,8 @@ tr, td {
 
 table, th, td {
     border-collapse: collapse;
+		vertical-align: top;
+
 }
 
 th {
@@ -436,10 +443,14 @@ th {
 
 .one-third {
 	width: 33%;
+	vertical-align: top;
 }
 
 .two-thirds {
 	width: 66%;
+	vertical-align: top;
+	padding-left: 24px;
+	padding-right: 24px;
 }
 
 #linkorama {
@@ -460,4 +471,9 @@ th {
   text-indent:5px;
   background:rgba(30,30,30,.5);
 	line-height:20px;
+}
+
+#description {
+	text-align: center;
+	font-size: 18px;
 }
