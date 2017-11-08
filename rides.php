@@ -32,7 +32,7 @@
 					<?php foreach ($rides as $ride => $item) { ?>
 						<li>
 							<a href="ride.php?item=<?php echo $ride; ?>" onmouseover="
-onMouseOver('./assets/img/<?= $item["image"]; ?>.png', '<?= $item["name"]?> &#8680;', '<?php echo $ride ?>', '<?php echo $item["blurb"] ?>');"><?php echo $item["name"]; ?></a>
+onMouseOver('./assets/img/<?= $item["image"]; ?>.png', '<?= $item["name"]?>', '<?php echo $ride ?>', '<?php echo $item["blurb"] ?>');"><?php echo $item["name"]; ?></a>
 						</li>
 
 					<?php } ?>
